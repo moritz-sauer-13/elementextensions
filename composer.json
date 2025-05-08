@@ -1,0 +1,20 @@
+{
+    "name": "moritz-sauer-13/baseelement",
+    "description": "Base element extensions",
+    "authors": [
+        {
+            "name": "Moritz Sauer",
+            "email": "ms@tietge.com"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^5",
+        "dnadesign/silverstripe-elemental": "^5",
+        "moritz-sauer-13/textformatter": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseElement\\": "src/"
+        }
+    }
+}

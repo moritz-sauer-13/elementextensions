@@ -1,0 +1,6 @@
+---
+Name: BaseElementExtensions
+---
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - BaseElement\Extensions\BaseElementExtension

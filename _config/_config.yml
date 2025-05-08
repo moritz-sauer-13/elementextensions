@@ -1,0 +1,10 @@
+---
+Name: baseElementExtension
+---
+BaseElement\Extensions\BaseElementExtension:
+  #classes_without_spacing: can be used to remove the ability to add spacing to certain elements
+  #classes_without_borders: can be used to remove the ability to add borders to certain elements
+  has_spacing: true # set to false to remove the ability to add spacing to all elements
+  has_borders: true # set to false to remove the ability to add borders to all elements
+  has_headline_tags: true # set to false to remove the ability to change headline tags
+  has_headline_optic: true # set to false to remove the ability to change headline optic
