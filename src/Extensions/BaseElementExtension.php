@@ -161,8 +161,7 @@ class BaseElementExtension extends Extension
             return '';
         }
 
-        $formattedTitle = TextFormatter::formattedText($title);
-        return $this->generateFrontendHeadlineHTML($formattedTitle);
+        return TextFormatter::formattedText($this->generateFrontendHeadlineHTML($title));
     }
 
     public function generateFrontendHeadlineHTML(string $content): string
