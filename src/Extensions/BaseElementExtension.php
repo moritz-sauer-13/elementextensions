@@ -130,7 +130,7 @@ class BaseElementExtension extends Extension
 
         if (
             Config::inst()->get(self::class, 'has_spacing') &&
-            !in_array($this->owner->ClassName, $this->classes_without_spacing)
+            !in_array($this->owner->ClassName, Config::inst()->get(self::class, 'classes_without_spacing'))
         ) {
             if ($this->owner->getField('SpaceTop')) {
                 $classes[] = 'space-top';
